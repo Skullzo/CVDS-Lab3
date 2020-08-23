@@ -5,14 +5,14 @@ Laboratorio 3 de la materia CVDS
 
 Se creo un proyecto con las especificaciones que daba el laboratorio
 
-<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/CrearProyectoMaven.png">
+<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/CrearProyectoMaven.PNG">
 
 ## Actualizar y crear dependencias en el proyecto+
 
 Buscamos en internet el repositorio central de Maven
 Con este buscamos el artefacto JUnit y buscamos la versión que mejor le acomodaba a la version 8 de Java. Con esta información actualizamos el pom.xml en las siguientes partes
 
-<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/ActuYCrearDependencias.png">
+<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/ActuYCrearDependencias.PNG">
 
 ## Compilar y Ejecutar
 
@@ -21,11 +21,11 @@ El comando que utilizamos para compilar y ejecutar fue el siguiente
 ```
 mvn package
 ```
-<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/CompilarYEjecutarPruebas.png">
+<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/CompilarYEjecutarPruebas.PNG">
 
 Con el comando package se creo el AppTest
 
-<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/JavaTest.png">
+<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/JavaTest.PNG">
 
 Y la clase para utilizar las pruebas unitarias dentro del test fue el siguiente
 
@@ -49,11 +49,11 @@ Y el resultado del registro prodrian ser
 4. **DEAD**
 5. **UNDERAGE**
 
-<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/EsqueletoAplicacionClases.png">
+<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/EsqueletoAplicacionClases.PNG">
 
 También creamos el esqueleto de la aplicacion en pruebas
 
-<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/EsqueletoAplicacionPruebas.png">
+<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/EsqueletoAplicacionPruebas.PNG">
 
 ## Ejecutar Pruebas
 
@@ -69,11 +69,11 @@ No encontramos diferencia, pero después de la explicación del profesor de la m
 
 Dentro del grupo sacamos 5 casos de equivalencia, donde ninguna de las condiciones se sobrepusiera, por que, si esto sucediera, no se obtendria el resultado que se espera
 
-<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/CasosDeEquivalenciaExcel.png">
+<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/CasosDeEquivalenciaExcel.PNG">
 
 Completamos la implementación del metodo registerVote y quedo de la siguiente manera
 
-<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/MetodoRegisterVote.png">
+<img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/MetodoRegisterVote.PNG">
 
 Y según el enunciado  hicimos pruebas para cada uno de los casos
 
