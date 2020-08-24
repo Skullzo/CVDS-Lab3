@@ -59,7 +59,7 @@ public class TarifaTest {
        
     @Test
     public void validarTarifaNegativa(){
-        //        deberia generar un error, por la  tarifaBase
+        // deberia generar un error, por la  tarifaBase
         try{
             tarifa = c.calculoTarifa(-5000000,1,30);
             long er = 0/0;
