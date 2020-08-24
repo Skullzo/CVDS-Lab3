@@ -7,7 +7,7 @@ Se creó un proyecto con las especificaciones que daba el laboratorio
 
 <img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/CrearProyectoMaven.PNG">
 
-## Actualizar y crear dependencias en el proyecto+
+## Actualizar y crear dependencias en el proyecto
 
 Buscamos en internet el repositorio central de Maven
 Con este buscamos el artefacto JUnit y buscamos la versión que mejor le acomodaba a la version 8 de Java. Con esta información actualizamos el pom.xml en las siguientes partes
