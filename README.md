@@ -3,7 +3,7 @@ Laboratorio 3 de la materia CVDS
 
 ## Crear un Proyecto con Maven
 
-Se creo un proyecto con las especificaciones que daba el laboratorio
+Se creó un proyecto con las especificaciones que daba el laboratorio
 
 <img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/CrearProyectoMaven.PNG">
 
@@ -23,26 +23,26 @@ mvn package
 ```
 <img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/CompilarYEjecutarPruebas.PNG">
 
-Con el comando package se creo el AppTest
+Con el comando package se creó el AppTest
 
 <img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/JavaTest.PNG">
 
-Y la clase para utilizar las pruebas unitarias dentro del test fue el siguiente
+Y la clase para utilizar las pruebas unitarias dentro de la prueba fue el siguiente
 
 ```
 mvn test
 ```
 
-## Ejercicio Registraduria
+## Ejercicio Registraduría
 
 Se va a crear un proyecto base para un requerimiento de la registraduría en el cual se registrarán personas con intención de votar paras las próximas elecciones y se generarán los certificados electorales de aquellas personas cuyo voto sea válido.
 
-Como dice el enunciado, creamos el esqueleto de las clases, donde teniamos dos enumeraciones, El genero que podia ser 
+Como dice el enunciado, creamos el esqueleto de las clases, donde teníamos dos enumeraciones, El género que podía ser 
 1. **MALE**
 2. **FEMALE**  
 3. **UNIDENTIFIED**
 
-Y el resultado del registro prodrian ser
+Y el resultado del registro podrían ser
 1. **VALID**
 2. **INVALID_AGE**
 3. **DUPLICATED**
@@ -51,7 +51,7 @@ Y el resultado del registro prodrian ser
 
 <img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/EsqueletoAplicacionClases.PNG">
 
-También creamos el esqueleto de la aplicacion en pruebas
+También creamos el esqueleto de la aplicación en pruebas
 
 <img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/EsqueletoAplicacionPruebas.PNG">
 
@@ -63,19 +63,19 @@ Ejecutamos las pruebas con los dos comandos
 mvn test; mvn package
 ```
 
-No encontramos diferencia, pero después de la explicación del profesor de la materia, Julian Velasco, entendimos que la diferencia es que el comando mvn test es más enfocado a las pruebas que se tengan, el package compila, pero no tiene en cuenta casi la participación de las pruebas
+No encontramos diferencia, pero después de la explicación del profesor de la materia, Julián Velasco, entendimos que la diferencia es que el comando mvn test es más enfocado a las pruebas que se tengan, el package compila, pero no tiene en cuenta casi la participación de las pruebas
 
 ## Finalizar Ejercicio
 
-Dentro del grupo sacamos 5 casos de equivalencia, donde ninguna de las condiciones se sobrepusiera, por que, si esto sucediera, no se obtendria el resultado que se espera
+Dentro del grupo sacamos 5 casos de equivalencia, donde ninguna de las condiciones se sobrepusiera, porque, si esto sucediera, no se obtendría el resultado que se espera
 
 <img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/CasosDeEquivalenciaExcel.PNG">
 
-Completamos la implementación del metodo registerVote y quedo de la siguiente manera
+Completamos la implementación del método registerVote y quedo de la siguiente manera
 
 <img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/MetodoRegisterVote.PNG">
 
-Y según el enunciado  hicimos pruebas para cada uno de los casos
+Y según el enunciado hicimos pruebas para cada uno de los casos
 
 ### Caso1
 <img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/Test1.PNG">
@@ -98,10 +98,10 @@ Dando por terminado esta parte del laboratorio
 
 ## Realizar Diseño de Pruebas
 
-Según las indicaciones del laboratorio resolvimos las preguntas pertinentes del pdf que se nos encomendo
+Según las indicaciones del laboratorio resolvimos las preguntas pertinentes del pdf que se nos encomendó
 
 ### Pregunta 1
-1. De acuerdo con lo indicado, y teniendo en cuenta que NO hay precondiciones, en qué casos se debería  arrojar una excepción de tipo ExcepcionParametrosInvalidos?. Agregue esto a la especificación.
+1. De acuerdo con lo indicado, y teniendo en cuenta que NO hay precondiciones, en qué casos se debería arrojar una excepción de tipo ExcepcionParametrosInvalidos?. Agregue esto a la especificación.
 
 - <img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/Excepciones.PNG">
 
@@ -113,7 +113,7 @@ Según las indicaciones del laboratorio resolvimos las preguntas pertinentes del
 
 - <img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/Punto3.PNG">
 
-4. A partir de las clases de equivalencia identificadas en el punto 2, identifique las condiciones límite o de frontera de las mismas.
+4. A partir de las clases de equivalencia identificadas en el punto 2, identifique las condiciones límite o de frontera de estas.
 
 - <img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/Punto4.PNG">
 
@@ -125,7 +125,7 @@ Al terminar de realizar la primera parte del Descuento de tarifas descargamos el
 
 <img  src="https://github.com/JuanMunozD/CVDS3/blob/master/img/DependenciaAero.PNG">
 
-Creamos un archivo y realizamos las pruebas pertinentes para cumplir los casos que habiamos establecido
+Creamos un archivo y realizamos las pruebas pertinentes para cumplir los casos que habíamos establecido
 
 Primero establecimos las excepciones de nuestro programa
 
